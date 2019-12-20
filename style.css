@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-20 00:27:50
 * @Last Modified by:   charliegallentine
-* @Last Modified time: 2019-12-20 16:03:06
+* @Last Modified time: 2019-12-20 16:23:44
 */
 
 body {
@@ -13,6 +13,10 @@ body {
 	overflow-x: hidden;
 	box-sizing: border-box;
 	font-family: 'titling-gothic-fb', sans-serif, 'Courier New', Courier, monospace;
+
+	font-family: titling-gothic-fb, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .border {
