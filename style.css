@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-20 00:27:50
 * @Last Modified by:   charliegallentine
-* @Last Modified time: 2019-12-20 11:09:51
+* @Last Modified time: 2019-12-20 11:13:43
 */
 
 body {
@@ -319,11 +319,15 @@ body {
 }
 
 .contact-link:hover > span > .contact-circle {
-	color: black;
+	color: #ffe381;
+	transform: scale(2);
+	transition: transform .5s ease-in-out;
 }
 
 .contact-link:hover > span > .contact-logo {
-	color: black;
+	color: #f78d36;
+	transform: scale(2);
+	transition: transform .5s ease-in-out;
 }
 
 .contact-logo {
