@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-20 00:27:50
 * @Last Modified by:   charliegallentine
-* @Last Modified time: 2019-12-20 16:55:57
+* @Last Modified time: 2019-12-20 17:02:17
 */
 
 body {
@@ -172,7 +172,7 @@ body {
 	height: 153.97vw !important;
 	max-height: 153.97%;
 	width: 100%;
-	margin-top: 5vw;
+	margin-top: -15vw;
 }
 
 #partners-title {
@@ -184,7 +184,7 @@ body {
 #partner-button {
 	/*border: 2px solid green;*/
 	right: 20vw;
-	top: 5vw;
+	top: -5vw;
 /*	margin-top:-10vw;
 	margin-left:-40vw;*/
 }
