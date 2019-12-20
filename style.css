@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-20 00:27:50
 * @Last Modified by:   charliegallentine
-* @Last Modified time: 2019-12-20 11:13:43
+* @Last Modified time: 2019-12-20 11:33:41
 */
 
 body {
@@ -275,7 +275,13 @@ body {
 	margin-left:-40vw;
 }
 
-@media(min-width: 600px)
+#partner-button-link {
+	margin-top: -2vw;
+	width: 100px;
+	height: 100px;
+}
+
+@media(min-width: 500px)
 {
 	#partners-title {
 		margin-top: 27vw;
@@ -285,7 +291,46 @@ body {
 		margin-top:15vw;
 		margin-left:-40vw;
 	}
+
+	#partner-button-link {
+		margin-top: -5vw;
+	}
 }
+
+@media(min-width: 650px)
+{
+	#partner-button-link {
+		margin-top: -5vw;
+	}	
+}
+
+@media(min-width: 750px)
+{
+	#partner-button-link {
+		/*margin-top: 0vw;*/
+		height: 150px;
+		width: 150px;
+	}	
+}
+
+@media(min-width: 850px)
+{
+	#partner-button-link {
+		margin-top: 5vw;
+		height: 150px;
+		width: 150px;
+	}	
+}
+
+@media(min-width: 850px)
+{
+	#partner-button-link {
+		/*margin-top: 5vw;*/
+		height: 200px;
+		width: 200px;
+	}	
+}
+
 
 #title-partner {
 	/*max-width: 10vw;*/
@@ -308,6 +353,7 @@ body {
 }
 
 #contact {
+	border: 1px solid rgba(0, 0, 0, 0);;
 	height: 86.41vw !important;
 	max-height: 86.41%;
 	width: 100%;
@@ -315,6 +361,7 @@ body {
 
 #contact-buttons {
 	margin-top: 50vw;
+	padding-top: 10vw;
 	margin-left: 15vw;
 }
 
