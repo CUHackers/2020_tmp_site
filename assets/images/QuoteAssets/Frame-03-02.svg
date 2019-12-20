@@ -20,6 +20,19 @@
 	<circle class="st3" cx="167.5" cy="203.1" r="154.4"/>
 	<circle class="st4" cx="167.5" cy="203.1" r="134.3"/>
 	
-		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -94.5833 177.9428)" class="st5" cx="167.5" cy="203.1" rx="116.8" ry="116.8"/>
+		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -94.5742 177.9089)" class="st5" cx="167.5" cy="203.1" rx="116.8" ry="116.8"/>
+</g>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="167.5" cy="203.1" r="91.1"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		
+			<image style="overflow:visible;" width="941" height="709" xlink:href="testimonial3.PNG"  transform="matrix(0.2641 0 0 0.2641 71.4938 111.9645)">
+		</image>
+	</g>
 </g>
 </svg>

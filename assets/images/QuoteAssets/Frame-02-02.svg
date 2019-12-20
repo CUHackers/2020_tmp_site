@@ -21,4 +21,17 @@
 	<path class="st4" d="M359.5,200.1c-0.4-76.1-48.4-147-124.5-173c-28-9.6-57.9-12.2-87.1-7.7"/>
 	<circle class="st5" cx="83.4" cy="45.7" r="10.2"/>
 </g>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="174.6" cy="200.1" r="93"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		
+			<image style="overflow:visible;" width="962" height="601" xlink:href="testimonial2.PNG"  transform="matrix(0.3055 0 0 0.3055 27.6437 108.2905)">
+		</image>
+	</g>
+</g>
 </svg>

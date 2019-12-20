@@ -22,20 +22,33 @@
 		<circle class="st2" cx="21.4" cy="227.4" r="10.2"/>
 		<circle class="st3" cx="200.3" cy="197.7" r="154.4"/>
 		<circle class="st4" cx="200.3" cy="197.7" r="134.3"/>
-		
-			<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -81.1292 199.5079)" class="st5" cx="200.3" cy="197.7" rx="116.8" ry="116.8"/>
+		<ellipse class="st5" cx="200.3" cy="197.7" rx="116.8" ry="116.8"/>
 		<g>
-			<defs>
-				
-					<ellipse id="SVGID_1_" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -81.1292 199.5079)" cx="200.3" cy="197.7" rx="116.8" ry="116.8"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-			</clipPath>
-			<g class="st6">
-				<rect x="24.8" y="63.4" class="st7" width="353.1" height="268.7"/>
+			<g>
+				<defs>
+					<circle id="SVGID_1_" cx="200.3" cy="197.7" r="116.8"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st6">
+					<rect x="24.8" y="63.4" class="st7" width="353.1" height="268.7"/>
+				</g>
 			</g>
 		</g>
+	</g>
+</g>
+<g>
+	<defs>
+		<circle id="SVGID_3_" cx="200.3" cy="197.7" r="112.6"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_4_);">
+		
+			<image style="overflow:visible;" width="880" height="599" xlink:href="testimonial1.PNG"  transform="matrix(0.3761 0 0 0.3761 74.7051 85.0226)">
+		</image>
 	</g>
 </g>
 </svg>

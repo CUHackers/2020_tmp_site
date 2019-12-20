@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-20 00:27:50
 * @Last Modified by:   charliegallentine
-* @Last Modified time: 2019-12-20 12:14:12
+* @Last Modified time: 2019-12-20 15:35:01
 */
 
 body {
@@ -83,195 +83,58 @@ body {
 	}
 }
 
+/* Centered text */
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #quotes {
 	height: 133.19vw !important;
 	max-height: 133.19%;
 	width: 100%;
 }
 
-.quote-shape {
-	min-width:50px;
-	margin-right: 200px;
-	margin-top: 20px;
-}
-
-.quote-text {
-	color: #2e3192;
-	font-size: 24px;
-}
-
-#quote-shape1 {
-	background-image: url("./assets/images/QuoteAssets/BG-Triangle-02.svg");
-	background-repeat: no-repeat;
-	padding: 30px;
-	margin: -30px;
-}
-
-#quote-shape2 {
-	background-image: url("./assets/images/QuoteAssets/BG-Square-02.svg");
-	background-repeat: no-repeat;
-	padding: 70px;
-	margin: -70px;
-}
-
-#quote-shape3 {
-	background-image: url("./assets/images/QuoteAssets/BG-Circle-02.svg");
-	background-repeat: no-repeat;
-	padding: 30px;
-	margin: -30px;
-}
-
-#quote-image1 {
-	background-image: url("./assets/images/QuoteAssets/Frame-01-02.svg");
-	background-repeat: no-repeat;
-	padding: 50px;
-	margin: -50px;
-}
-
-#quote-image2 {
-	background-image: url("./assets/images/QuoteAssets/Frame-02-02.svg");
-	background-repeat: no-repeat;
-	padding: 50px;
-	margin: -50px;
-}
-
-#quote-image3 {
-	background-image: url("./assets/images/QuoteAssets/Frame-03-02.svg");
-	background-repeat: no-repeat;
-	padding: 50px;
-	margin: -50px;
-}
-
-.quote-image {
-	min-width:50px;
-}
-
-.quoteimg {
-	/*max-width: 150px;*/
-	height: 75px;
-	width: 75px;
-	border-radius: 50%;
+#quote-container {
+	margin-top:10vw;
 }
 
 .quote-row {
-	margin-top: 100px;
+	/*border: 2px solid cyan;*/
+}
+
+.quote-text {
+	margin-left: -5vw;
+	margin-right: -5vw;
+	margin-top: 3vw;
+}
+
+.quote-image {
+	/*border: 2px solid green;*/
+	width: 25vw;
+}
+
+.quote-shape {
+	width: 25vw;
 }
 
 @media(min-width:600px)
 {
-	.quote-row {
-		margin-top: 150px;
-	}
 
-	#quote-shape1 {
-		padding: 50px;
-		margin: -50px;
-	}
-
-	#quote-shape2 {
-		padding: 90px;
-		margin: -90px;
-	}
-
-	#quote-shape3 {
-		padding: 50px;
-		margin: -50px;
-	}
-	
-	#quote-image1 {
-		padding: 80px;
-		margin: -80px;
-	}
-
-	#quote-image2 {
-		padding: 80px;
-		margin: -80px;
-	}
-
-	#quote-image3 {
-		padding: 80px;
-		margin: -80px;
-	}
-
-	.quoteimg {
-		/*max-width: 150px;*/
-		height: 120px;
-		width: 120px;
-		border-radius: 50%;
-	}
 }
 
 @media(min-width:920px)
 {
-	.quote-row {
-		margin-top: 220px;
-	}
-
-	#quote-shape1 {
-		padding: 80px;
-		margin: -80px;
-	}
-
-	#quote-shape2 {
-		padding: 120px;
-		margin: -120px;
-	}
-
-	#quote-shape3 {
-		padding: 80px;
-		margin: -80px;
-	}
-
-	#quote-image1 {
-		padding: 120px;
-		margin: -120px;
-	}
-
-	#quote-image2 {
-		padding: 120px;
-		margin: -120px;
-	}
-
-	#quote-image3 {
-		padding: 120px;
-		margin: -120px;
+	#quote-container {
+		margin-top:15vw;
 	}
 }
+
 @media(min-width:1100px)
 {
-	.quote-row {
-		margin-top: 300px;
-	}
 
-	#quote-shape1 {
-		padding: 150px;
-		margin: -150px;
-	}
-
-	#quote-shape2 {
-		padding: 170px;
-		margin: -170px;
-	}
-
-	#quote-shape3 {
-		padding: 140px;
-		margin: -140px;
-	}
-
-	#quote-image1 {
-		padding: 150px;
-		margin: -150px;
-	}
-
-	#quote-image2 {
-		padding: 150px;
-		margin: -150px;
-	}
-
-	#quote-image3 {
-		padding: 150px;
-		margin: -150px;
-	}
 }
 
 #schedule {
@@ -294,13 +157,16 @@ body {
 
 #partners-title {
 	color: #50c6df;
-	margin-top: 13vw;
+	margin-top: 15vw;
 	padding-top: 10vw;
 }
 
 #partner-button {
-	margin-top:5vw;
-	margin-left:-40vw;
+	/*border: 2px solid green;*/
+	right: 20vw;
+	top: -5vw;
+/*	margin-top:-10vw;
+	margin-left:-40vw;*/
 }
 
 #partner-button-link {
@@ -316,8 +182,8 @@ body {
 	}
 
 	#partner-button {
-		margin-top:15vw;
-		margin-left:-40vw;
+/*		margin-top:15vw;
+		margin-left:-40vw;*/
 	}
 
 	#partner-button-link {
@@ -328,11 +194,11 @@ body {
 @media(min-width: 650px)
 {
 	#partner-button-link {
-		margin-top: -5vw;
+		/*margin-top: -5vw;*/
 	}	
 }
 
-@media(min-width: 750px)
+@media(min-width: 720px)
 {
 	#partner-button-link {
 		/*margin-top: 0vw;*/
@@ -388,7 +254,7 @@ body {
 }
 
 #contact-buttons {
-	margin-top: 50vw;
+	margin-top: 25vw;
 	padding-top: 10vw;
 	margin-left: 15vw;
 }
