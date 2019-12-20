@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-20 00:27:50
 * @Last Modified by:   charliegallentine
-* @Last Modified time: 2019-12-20 02:43:05
+* @Last Modified time: 2019-12-20 02:57:36
 */
 
 body {
@@ -75,42 +75,42 @@ body {
 }
 
 #quote-shape1 {
-	background-image: url("/assets/images/QuoteAssets/BG-Triangle-02.svg");
+	background-image: url("./assets/images/QuoteAssets/BG-Triangle-02.svg");
 	background-repeat: no-repeat;
 	padding: 30px;
 	margin: -30px;
 }
 
 #quote-shape2 {
-	background-image: url("/assets/images/QuoteAssets/BG-Square-02.svg");
+	background-image: url("./assets/images/QuoteAssets/BG-Square-02.svg");
 	background-repeat: no-repeat;
 	padding: 70px;
 	margin: -70px;
 }
 
 #quote-shape3 {
-	background-image: url("/assets/images/QuoteAssets/BG-Circle-02.svg");
+	background-image: url("./assets/images/QuoteAssets/BG-Circle-02.svg");
 	background-repeat: no-repeat;
 	padding: 30px;
 	margin: -30px;
 }
 
 #quote-image1 {
-	background-image: url("/assets/images/QuoteAssets/Frame-01-02.svg");
+	background-image: url("./assets/images/QuoteAssets/Frame-01-02.svg");
 	background-repeat: no-repeat;
 	padding: 50px;
 	margin: -50px;
 }
 
 #quote-image2 {
-	background-image: url("/assets/images/QuoteAssets/Frame-02-02.svg");
+	background-image: url("./assets/images/QuoteAssets/Frame-02-02.svg");
 	background-repeat: no-repeat;
 	padding: 50px;
 	margin: -50px;
 }
 
 #quote-image3 {
-	background-image: url("/assets/images/QuoteAssets/Frame-03-02.svg");
+	background-image: url("./assets/images/QuoteAssets/Frame-03-02.svg");
 	background-repeat: no-repeat;
 	padding: 50px;
 	margin: -50px;
