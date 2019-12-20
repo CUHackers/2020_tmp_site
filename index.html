@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="./nav.css">
     <link rel="stylesheet" href="./schedule.css">
+    <link rel="stylesheet" href="./animate.css">
 </head> 
 
 <body>
@@ -22,7 +23,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="./index.html">
-                <img src="./images/CUhackit_RGB_Bug_Color.svg" class="nav-brand">
+                <img src="./images/CUhackit_RGB_Bug_blonde.svg" class="nav-brand">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -36,10 +37,10 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#schedule">Schedule</a>
+                        <a class="nav-link" href="#schedule-title">Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#partners">Partners</a>
+                        <a class="nav-link" href="#partners-title">Partners</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact-buttons">Contact</a>
@@ -76,10 +77,10 @@
         <div class="text-container">
             <img src="./images/home/header.svg" class="header" alt="header">
             <a href="https://cuhackit.typeform.com/to/uvOtFP">
-                <img src="./images/home/applybutton.svg" class="applybutton" alt="applybutton">
+                <img src="./images/home/applybutton.svg" class="applybutton hoverexpand" alt="applybutton">
             </a>
             <a href="https://cuhackit.typeform.com/to/Yyr9gd">
-                <img src="./images/home/mentorbutton.svg" class="mentorbutton" alt="mentorbutton">
+                <img src="./images/home/mentorbutton.svg" class="mentorbutton hoverexpand" alt="mentorbutton">
             </a>
         </div>
         <!-- circles group -->
@@ -113,7 +114,7 @@
 		<div class="d-flex flex-column">
 			<div class="d-flex justify-content-end quote-row">
 				<div class="quote-shape">
-					<p id="quote-shape1" style="padding-left:10%;">HAS THIS TEXT</p>
+					<p class="quote-text" id="quote-shape1">"The <br><strong>perfect</strong><br> experience for my first hackathon"</p>
 				</div>
 				<div id="quote-image1" class="quote-image">
 					<img src="./images/CUhackit_RGB_Bug_Color.svg" alt="altimg">
@@ -123,17 +124,17 @@
 
 			<div class="d-flex justify-content-start quote-row">
 				<div class="col-2"></div>
-				<div id="quote-image2" class="quote-image">
-					<img src="./images/CUhackit_RGB_Bug_Color.svg" alt="altimg" style="margin-left:-5%;">
+				<div id="quote-image2" class="quote-image" style="z-index: 100;">
+					<img class="quoteimg" src="./assets/images/QuoteAssets/testimonial1.png" alt="altimg" style="margin-left:-5%;">
 				</div>
-				<div class="quote-shape">
-					<p id="quote-shape2" style="margin-left:-10px;">HAS THIS TEXT</p>
+				<div  style="z-index: -100;">
+					<p class="quote-text" id="quote-shape2" style="margin-left:-10px;">"CUhackit is a <br><strong>first</strong><br> of its kind"</p>
 				</div>
 			</div>
 
 			<div class="d-flex justify-content-end quote-row">
 				<div class="quote-shape">
-					<p id="quote-shape3" style="padding-left:10%;">HAS THIS TEXT</p>
+					<p class="quote-text" id="quote-shape3" style="padding-left:10%;">"It's <br>important to <strong>create</strong> <br>things"</p>
 				</div>
 				<div id="quote-image3" class="quote-image">
 					<img src="./images/CUhackit_RGB_Bug_Color.svg" alt="altimg">
@@ -176,7 +177,8 @@
 				<img 
 					src="./assets/images/PartnerAssets/button-02.svg" 
 					alt="Become a Partner"
-					id="partner-button-link">
+					id="partner-button-link"
+					class="hoverexpand">
 			</a>
 		</div>
 		
@@ -187,25 +189,25 @@
 	<div id="contact">
 		<!-- <div style="height:5px;"></div> -->
 		<div id="contact-buttons" class="d-flex w-50 justify-content-around">
-			<a class="contact-link" href="#">
+			<a class="contact-link movement" href="#">
 				<span class="fa-stack fa-2x">
 				    <i class="fa fa-circle fa-stack-2x contact-circle"></i>
 				    <i class="fa fa-envelope fa-stack-1x fa-inverse contact-logo"></i>
 				</span>
 			</a>
-			<a class="contact-link" href="#">
+			<a class="contact-link movement" href="#">
 				<span class="fa-stack fa-2x">
 				    <i class="fa fa-circle fa-stack-2x contact-circle"></i>
 				    <i class="fa fa-facebook-f fa-stack-1x fa-inverse contact-logo"></i>
 				</span>
 			</a>
-			<a class="contact-link" href="#">
+			<a class="contact-link movement" href="#">
 				<span class="fa-stack fa-2x">
 				    <i class="fa fa-circle fa-stack-2x contact-circle"></i>
 				    <i class="fa fa-twitter fa-stack-1x fa-inverse contact-logo"></i>
 				</span>
 			</a>
-			<a class="contact-link" href="#">
+			<a class="contact-link movement" href="#">
 				<span class="fa-stack fa-2x">
 				    <i class="fa fa-circle fa-stack-2x contact-circle" ></i>
 				    <i class="fa fa-instagram fa-stack-1x fa-inverse contact-logo"></i>
@@ -214,6 +216,9 @@
 
 		</div>
 	</div>
+
+
+	 <script src="./js/main.js"></script> 
 </body>
 </html>
 

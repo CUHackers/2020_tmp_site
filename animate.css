@@ -1,0 +1,62 @@
+/*
+* @Author: charliegallentine
+* @Date:   2019-12-20 11:36:40
+* @Last Modified by:   charliegallentine
+* @Last Modified time: 2019-12-20 11:37:32
+*/
+@keyframes rotcw {
+	from {
+		transform: rotate(0deg)
+		           translate(-3px)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-3px) 
+		           rotate(-360deg);
+	}
+}
+
+@keyframes rotccw {
+	from {
+		transform: rotate(0deg)
+		           translate(-3px)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-3px) 
+		           rotate(-360deg);
+	}
+}
+
+
+.revolve-one {
+	/*border: 2px solid #333;*/
+	animation: rotcw 3s infinite linear;
+}
+
+.revolve-two {
+	/*border: 2px solid #333;*/
+	animation: rotcw 3.5s infinite linear;
+}
+
+.revolve-three {
+	/*border: 2px solid #333;*/
+	animation: rotcw 4s infinite linear;
+}
+
+.revolve-four {
+	/*border: 2px solid #333;*/
+	animation: rotccw 3.25s infinite linear;
+}
+
+.revolve-five {
+	/*border: 2px solid #333;*/
+	animation: rotccw 3.75s infinite linear;
+}
+
+.revolve-six {
+	/*border: 2px solid #333;*/
+	animation: rotccw 4.1s infinite linear;
+}
