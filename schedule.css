@@ -1,8 +1,8 @@
 /*
 * @Author: charliegallentine
 * @Date:   2019-12-20 01:39:31
-* @Last Modified by:   charliegallentine
-* @Last Modified time: 2019-12-20 01:39:33
+* @Last Modified by:   Charlie Gallentine
+* @Last Modified time: 2020-01-04 16:30:09
 */
 td, th {
   border: none;
@@ -13,27 +13,51 @@ h5, h6 {
   margin: 2px;
 }
 
-
-#table{
+#table {
   border-radius: 32px;
   padding: 0px;
+  height: 540px;
 }
 
-#schedule1bg {
-    margin-top: -20px;
-    overflow: hidden;
-    margin-left:-2px;
-    height: 138.11vw;
-    max-height: 138.11vw;
-    min-width: 750px;
-    width: 100%;
-    overflow: hidden;
+#table2 {
+  border-radius: 32px;
+  padding: 0px;
+  height: 680px;  
 }
 
-#schedule1 {
-  margin-top: -20px;
-  height: 138.11vw;
-  max-height: 138.11vw;
-    border: 5px solid brown;
-  overflow: hidden;
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .1s ease-in-out;
+  border-radius: 10px;
+  background-color: transparent;
+  position: absolute;
+
+  text-align: center;
+}
+
+.card1 {
+  color:#fef8c0;
+  background-color: rgba(46, 49, 146, 0.75);
+}
+
+.card2 {
+  color:#2e3192;
+  background-color: rgba(80, 198, 223, 0.75);
+}
+
+.card3
+{
+  color: #2e3192;
+  background-color: rgba(247, 141, 54, 0.75);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  opacity: 100%;
+}
+
+.card-text {
+  display: block;
 }
