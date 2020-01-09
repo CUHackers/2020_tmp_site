@@ -2,7 +2,7 @@
 * @Author: charliegallentine
 * @Date:   2019-12-20 01:39:31
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2020-01-04 16:30:09
+* @Last Modified time: 2020-01-09 11:48:29
 */
 td, th {
   border: none;
@@ -24,6 +24,64 @@ h5, h6 {
   padding: 0px;
   height: 680px;  
 }
+
+.day1 {
+  margin-top: 25px;
+}
+
+.day2 {
+  margin-top: 25px;
+}
+
+.dayhead {
+  font-size: 24px;
+}
+
+@media(min-width: 950px)
+{
+  .dayhead {
+    font-size: 36px;
+  }
+
+  .day1 {
+    margin-top: 25px;
+  }
+
+  .day2 {
+    margin-top: 100px;
+  }
+}
+
+@media(min-width: 1050px)
+{
+  .dayhead {
+    font-size: 42px;
+  }
+
+  .day1 {
+    margin-top: 60px;
+  }
+
+  .day2 {
+    margin-top: 170px;
+  }
+}
+
+@media(min-width: 1200px)
+{
+  .dayhead {
+    font-size: 48px;
+  }
+
+  .day1 {
+    margin-top: 160px;
+  }
+
+  .day2 {
+    margin-top: 300px;
+  }
+}
+
 
 .card {
   display: flex;
