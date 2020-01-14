@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-20 00:27:50
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2020-01-14 15:55:41
+* @Last Modified time: 2020-01-14 16:00:31
 */
 
 body {
@@ -21,6 +21,11 @@ body {
 
 .title-size {
 	font-size: 3rem;
+}
+
+.stick {
+	position: sticky;
+	top: 0;
 }
 
 @media(min-width: 720px) {
