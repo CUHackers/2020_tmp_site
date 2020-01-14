@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-20 00:27:50
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2020-01-14 16:13:48
+* @Last Modified time: 2020-01-14 16:33:49
 */
 
 body {
@@ -294,6 +294,17 @@ p {
 	}	
 }
 
+@media(min-width: 1200px)
+{
+	#partner-button-link {
+		/*margin-top: 5vw;*/
+		height: 270px;
+		width: 270px;
+	}
+	#partner-button {
+		top: 250px;
+	}
+}
 
 #title-partner {
 	/*max-width: 10vw;*/
